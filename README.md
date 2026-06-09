@@ -49,8 +49,8 @@ Each lab is a standalone Terraform project. From inside a lab folder:
 ```bash
 terraform init      # download required providers
 terraform plan      # preview the changes
-terraform apply     #create the resources (confirm with  yes)
-terraform destroy       # tear everything down
+terraform apply     # create the resources (confirm with  yes)
+terraform destroy   # tear everything down
 ```
 
 > Note: AWS labs use free-tier resources and are always destroyed after use to avoid charges.
