@@ -1,0 +1,29 @@
+# Terraform state (cofidential data about resources and sometimes can include secrets)
+*.tfstate
+*.tfstate.*
+
+# Providers folder (not necessarry for repo push)
+**/.terraform/*
+
+# Crash-logs
+crash.log
+crash.*.log
+
+# Variables files (usually include creds)
+*.tfvars
+*.tfvars.json
+
+# Override-files (usually local)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI-configs
+.terraformrc
+terraform.rc
+
+# Secrets and keys 
+.env
+*.pem
+*.key
