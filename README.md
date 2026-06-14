@@ -20,7 +20,7 @@ The goal is simple - everything here runs, everything is written by me, and the 
 
 | Folder | Topic | Status |
 | --- | --- | --- |
-| `01-terraform-basics` | Terraform core workflow: init / plan / apply / destroy, local and Docker providers | Done |
+| `01-terraform-basics` | Terraform core workflow: init / plan / apply / destroy, local / Docker / GitHub providers | Done |
 | `02-terraform-docker` | Multi-container setups, networking, variables | Planned |
 | `03-terraform-modules` | Reusable modules and clean configuration | Planned |
 | `04-aws-vpc` | Networking from scratch: VPC, subnets, route tables, security groups | Planned |
@@ -49,7 +49,7 @@ Each lab is a standalone Terraform project. From inside a lab folder:
 ```bash
 terraform init      # download required providers
 terraform plan      # preview the changes
-terraform apply     # create the resources (confirm with  yes)
+terraform apply     # create the resources (confirm with yes)
 terraform destroy   # tear everything down
 ```
 
