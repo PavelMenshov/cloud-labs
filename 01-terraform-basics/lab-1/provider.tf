@@ -12,5 +12,5 @@ terraform {
 }
 
 provider "docker" {
-
+  # пустой т.к. использую локальный докер (у меня установлен в root path variables)
 }

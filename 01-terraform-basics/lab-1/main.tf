@@ -16,3 +16,16 @@ resource "docker_container" "nginx" {
     external = 8000
   }
 }
+
+# data "aws_availability_zones" "available" {}
+# data "aws_region" "current" {}
+
+# resource "aws_vpc" "vpc" {
+#   cidr_block = var.vpc_cidr
+
+#   tags = {
+#     Name = var.vpc_name
+#     Environment = "demo_environment"
+#     Terraform = "true"
+#   }
+# }
