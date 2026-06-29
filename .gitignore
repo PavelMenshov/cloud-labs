@@ -32,3 +32,6 @@ terraform.rc
 *.tfplan
 pasha
 pasha_d
+
+# Other docs
+03-multi-provider-spec.md
