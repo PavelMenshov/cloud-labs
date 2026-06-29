@@ -27,3 +27,8 @@ terraform.rc
 .env
 *.pem
 *.key
+
+# Saved plan files
+*.tfplan
+pasha
+pasha_d

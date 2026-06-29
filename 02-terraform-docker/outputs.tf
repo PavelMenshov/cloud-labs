@@ -5,8 +5,8 @@ output "docker_container_id" {
 
 output "nginx_ports" {
   value = {
-    internal = var.nginx_container_ports[0]
-    external = var.nginx_container_ports[1]
+    internal = var.nginx_container_ports.internal
+    external = var.nginx_container_ports.external
   }
   description = "Available Nginx ports in Docker container"
 }

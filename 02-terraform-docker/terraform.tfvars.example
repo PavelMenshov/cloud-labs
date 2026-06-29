@@ -1,1 +1,9 @@
-Example of Terraform variables used in this project.
+# Copy this file to terraform.tfvars and fill with your values.
+# terraform.tfvars is gitignored.
+
+nginx_version        = "nginx:1.25-alpine"
+nginx_container_name = "my-nginx"
+nginx_container_ports = {
+  internal = 80
+  external = 8080
+}
